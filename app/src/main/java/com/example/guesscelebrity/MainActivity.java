@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         if(Integer.parseInt(tag) == correctAnswer){
             Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(this, "Incorrect! The right answer is + " + celebNames[questionNumber], Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Incorrect! The right answer is " + celebNames[questionNumber], Toast.LENGTH_SHORT).show();
         }
         playGame();
     }
